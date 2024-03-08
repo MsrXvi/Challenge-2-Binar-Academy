@@ -1,0 +1,291 @@
+body {
+font-family: Helvetica;
+background-color: #ffffff;
+}
+
+
+/* Title */
+#title{
+	background: #F1F3FF;
+}
+
+.car-img{
+	width: 650px;
+	height: 398px;
+	margin-bottom: -63px;
+}
+
+.sewa-mobil-title{
+	width: 568px;
+	height: 108px;
+	top: 177px;
+	left: 136px;
+	font-size: 36px;
+	font-weight: 700px;
+	line-height: 54px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.btn-sewa-sekarang{
+	width:140px;
+	height:36px;
+	padding-right: 5px;
+	padding-left: 10px;
+	background: #5CB85F;
+}
+
+.text-sewa-sekarang{
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+/* Service */
+.service-title{
+	width: 568px;
+	height: 108px;
+	font-size: 36px;
+	font-weight: 700px;
+	line-height: 54px;
+	letter-spacing: 0em;
+	text-align: left;
+	margin-top: 50px;
+}
+.service-img{
+	width: 459px;
+	height: 428px;
+}
+.p-in-service{
+	margin-left: 12px;
+}
+
+
+/* Whyus */
+.frame {
+	box-sizing: border-box;
+	padding: 1rem 1rem 1rem 1rem;
+	height: 100%;
+	row-gap: 1.6rem;
+	display: flex;
+	flex-direction: column;
+	border: solid 0.1rem #d0d0d0;	
+	border-radius: 0.8rem;
+	flex-shrink: 0;
+	margin: 18px;
+	width: 238px;
+}
+.log-in-whyus{
+	width: 42px;
+	height: 42px;
+}
+.p-in-whyus{
+	font-size: 14px;
+}
+
+
+/* Testimonial */
+.carousel {
+	background-color: #f1f3ff;
+	width: 832px;
+	height: 270px;
+}
+
+.carousel-control-prev-icon {
+	background-image: url("/assets/Vector.svg");
+}
+
+.carousel-control-next-icon {
+	background-image: url("/assets/Vector-kanan.svg");
+}
+
+.img-in-testi{
+	width: 70.22px;
+	height: 80px;
+	margin-left: 100px;
+	border-radius: 100%;
+}
+
+.p-in-testi{
+	font-size: 14px;
+	margin-left: 0px;
+	margin-right: 110px;
+	margin-top: 8px;
+}
+	.rate-in-testi{
+	width: 80px;
+	margin-top: 30px;
+}
+
+
+  /* Banner */
+.kotak-banner{
+	background: #0D28A6;
+	width: 1168px;
+	height: 326px;
+	margin-left: 100px;
+	margin-top: 173px;
+}
+
+.h-in-banner{
+	color: #FFFFFF;
+	margin-top: 20px;
+}
+
+.p-in-banner{
+	color: #FFFFFF;
+	font-size: 14px;
+	width: 550px;
+	height: 40px;
+	margin-left: 265px;
+	margin-top: -25px;
+	margin-bottom: 32px;
+}
+
+@media (max-width:600px){
+	/* title */
+	.car-img{
+		width: 284px;
+		height: 200px;
+		margin-bottom: -4.5rem;
+		margin-top: -2.1rem;
+		margin-left: 0.8rem;
+
+	}
+	.sewa-mobil-title{
+		width: 275px;
+	}
+	.p-in-tittle{
+		margin-top: 7rem;
+	}
+
+	/* service */
+	.service-img{
+		width: 220px;
+		height: 205px;
+		margin-left: 1.3rem;
+	}
+	.service-title{
+		width: 300px;
+		height: 100px;
+		font-size: 22px;
+		line-height: 45px;
+		margin-top: -1rem;
+		margin-left: -0.8rem;
+	}
+	.p-in-service1{
+		font-size: 12.8px;
+		width: 300px;
+		margin-left: -0.8rem;
+
+	}
+	.li-in-service{
+		font-size: 12.8px;
+		margin-left: -1rem;
+	}
+
+	/* whyus */
+	.frame {
+		box-sizing: border-box;
+		margin: 18px;
+		width: 286px;
+		height: 176px;
+		margin-left: 0rem;
+	}
+	.why-us-tittle{
+		margin-top: -5rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;	
+	}
+	.why-us-p{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: -3rem; ;
+		font-size: 15px;
+	}
+	.log-in-whyus{
+		
+			width: 34px;
+			height: 34px;
+	}
+	.h-in-whyus{
+		margin-top: -0.5rem;
+		font-size: 16px;
+	}
+	.p-in-whyus{
+		width: 250px;
+		font-size: 14px;
+	}
+	/* Testimonial */
+
+	.h-in-testi{
+	margin-top: -3.7rem;
+	}
+	.p-in-testi1{
+	font-size: 16px;	
+	}
+	.carousel {
+	background-color: #f1f3ff;
+	width: 298px;
+	height: 356px;
+	}
+
+	.carousel-control-prev-icon {
+	background-image: url("/assets/Vector.svg");
+	margin-top: -13rem;
+	}
+
+	.carousel-control-next-icon {
+	background-image: url("/assets/Vector-kanan.svg");
+	margin-top: -13rem;
+	}
+
+	.img-in-testi{
+	width: 70.22px;
+	height: 80px;
+	margin-left: 4.5rem;
+	}
+
+	.p-in-testi{
+	font-size: 14px;
+	width: 280px;
+	margin-left: -2rem;
+	}	
+	.rate-in-testi{
+	width: 80px;
+	margin-left: 33%;
+	margin-top: 0.5rem;
+	display: grid;
+	place-items: center;
+	}
+
+	/* banner */
+	.kotak-banner{
+	background: #0D28A6;
+	width: 297px;
+	height: 375px;
+	margin-left: 0.7rem;
+	margin-top: 5rem;
+	}
+
+	.h-in-banner{
+	color: #FFFFFF;
+	margin-top: 20px;
+	text-align: center;
+	}
+
+	.p-in-banner{
+	color: #FFFFFF;
+	font-size: 14px;
+	width: 340px;
+	height: 40px;
+	margin-left: -2.7rem ;
+	margin-bottom: 4.2rem;
+	}
+}
